@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-color: #E3B448; */
+    margin: 0;
+}
+
+/* ----------- HEADER ----------- */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 70px;
+    padding-top: 20px;
+}
+
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------- MENU ----------------  */
+.logo{
+    color: #3A6B35;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #3A6B35;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.menu a:hover, .nav a:hover, .dropdown:hover .dropbtn{
+    color : #E3B448;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    color: #3A6B35;
+    padding: 0 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#A8C66C;
+    min-width: 120px;
+    /* padding-top: 10px; */
+    z-index: 3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #E3B448;
+    background-color: #3A6B35;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.icons a{
+    color: #3A6B35;
+    font-size: 21px;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.icons a:hover{
+    color: #E3B448;
+    font-size: 21px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+/* ---- MAIN ----  */
+
+.hero{
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(247, 247, 247);
+    /* display: flex; */
+    /* padding: 0; */
+}
+
+/* ------ FORM ------- */
+
+.formBox{
+    width: 32%;
+    height: 550px;
+    position: relative;
+    margin: 20px 70px;
+    background-color: white;
+    /* padding: 5px; */
+    overflow: hidden;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.253);
+    top: 50px;
+    /* left: 15px; */
+}
+
+.buttonBox{
+    width: 360px;
+    height: 40px;
+    margin: 40px auto;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 10px 1px #8a8a8a;
+    border-radius: 15px;
+    /* padding: 2px; */
+}
+
+.toggle-btn{
+    padding: 10px 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #E3B448;
+    font-size: 14px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background-color: #3A6B35;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.inputGroup{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin-top: -50px;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 30px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #2D4B49;
+    outline: none;
+    background: transparent;
+}
+
+.submitBtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin:  0 50px;
+    background-color: #E3B448;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.checkbox{
+    margin: 30px;
+}
+
+span{
+    color: #3A6B35;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    line-height: 7px;
+    margin-left: -20px;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 550px;
+}
+
+#profile{
+    left: 950px;
+}
+
+.box img{
+    position: absolute;
+    width: 830px;
+    height: auto;
+    right: 0px; 
+    top: 110px;
+}
+
+/* --------- FOOTER ------- */
+.footer{
+    background-color: #3A6B35;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    position: relative;
+}
+
+.kiri a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.kiri a:hover{
+    text-decoration: none;
+    color:#E3B448;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.kanan a{
+    color: white;
+    font-size: 25px;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.kanan a:hover{
+    color: #E3B448;
+    padding: 0 7px;
+    cursor: pointer;
+    font-size: 25px;
+}
+

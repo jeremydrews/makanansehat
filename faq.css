@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #E3B448; */
+    margin: 0;
+}
+
+/* ----------- HEADER ----------- */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 70px;
+}
+
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------- MENU ----------------  */
+.logo{
+    color: #3A6B35;
+}
+
+.logo img{
+    width: 125px;
+    height: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #3A6B35;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.menu a:hover, .nav a:hover, .dropdown:hover .dropbtn{
+    color : #E3B448;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    color: #3A6B35;
+    padding: 0 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#A8C66C;
+    min-width: 120px;
+    /* padding-top: 10px; */
+    z-index: 3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #E3B448;
+    background-color: #3A6B35;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.icons a{
+    color: #3A6B35;
+    font-size: 21px;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.icons a:hover{
+    color: #E3B448;
+    font-size: 21px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+/*---------------- FAQ ----------------*/
+
+*{
+    box-sizing: border-box;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 50px;
+    color: #3A6B35;
+    width: max-content;
+}
+
+.title p{
+    text-align: center;
+    color: #3A6B35;
+}
+
+.title{
+    top: 0;
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+.faq{
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    /* margin-bottom: 50px; */
+}
+
+.faq .card{
+    box-shadow: 0px 0px 15px #314F4D;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.faq .card:hover{
+    box-shadow: 0px 0px 15px #314F4D;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 20px #314F4D(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.faq .card .card-header h3{
+    cursor: pointer;
+    color: #314F4D;
+    position: relative;
+    background-color: #E3B448;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.faq .card .card-header{
+    position: relative;
+}
+
+.faq .card .card-header span{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    height: 25px;
+    width: 25px;
+    color: #314F4D;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.faq .card .card-body{
+    padding: 20px;
+    background-color: white;
+}
+
+.faq .card .card-body{
+    display: none;
+}
+
+/* open card */
+
+.faq .card:nth-child(2) .card-body{
+    display: block;
+}
+
+.faq .card .card-body p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #314F4D;
+    margin: 0px;
+} 
+
+/* ---------------- FOOTER ----------------  */
+.footer{
+    background-color: #3A6B35;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    position: flex;
+}
+
+.kiri a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.kiri a:hover{
+    text-decoration: none;
+    color: #C78D65;
+    padding: 0 15px;
+
+}
+
+.kanan a{
+    color: white;
+    font-size: 23px;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.kanan a:hover{
+    color: #C78D65;
+    padding: 0 7px;
+    cursor: pointer;
+}
